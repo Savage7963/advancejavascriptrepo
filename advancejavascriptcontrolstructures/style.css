@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(27, 25, 25);
+    margin: 5rem;
+}
+
+h1{
+    color: yellow;
+    text-align: center;
+}
+
+section{
+    width: 95%;
+    background-color: yellow;
+    /* text-align: center; */
+    padding: 1rem 2rem;
+    margin: 2rem auto;
+    max-width: 50rem;
+    border-radius: 11px;   
+
+}
+
+button{
+    background-color: rgb(255, 196, 0);
+    padding: 1rem;
+    border-radius: 6px;
+    border: 5px solid yellow;
+    
+}
+
+.control{
+    margin: 1rem 0;
+}
+
+label,input{
+    display:block;
+}
+
+label{
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+
+}
+
+input{
+    font-size: 1.5rem;
+    border-radius: 4px;
+    border: 1px solid grey;
+    width: 3rem;
+    max-width: 100%;
+    padding: 0.5rem;
+    
+}
+
+a{
+    text-decoration: none;
+    color: orange;
+
+}
+
+.output{
+    background-color: orange;
+    padding:0.25rem ;
+}
+
+a.highlight{
+    background-color: purple;
+    padding: 0.25rem;
+}
+#calculated-sum{
+    padding: 1rem;
+    text-align: center;
+    font-size: 10rem;
+    display:none;
+}
